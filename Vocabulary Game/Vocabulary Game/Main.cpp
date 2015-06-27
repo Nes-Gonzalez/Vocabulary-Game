@@ -6,25 +6,47 @@
 
 using namespace std;
 
-void main()
+int main()
 {
-	ifstream input("WordInput.txt");
+	
 	vector<string> wordsList;
 	vector<string> definitions;
+	vector<string> pronunciations;
 	string tempLineHolder;
 	int userInput;
 
-	//reading file to get all words and definitions
-	while (getline(input,tempLineHolder))
-	{
-		wordsList.push_back(tempLineHolder);
+	//reading file to get all words and definitions (converting to wstring for text to speech)
+	ifstream input("WordInput.txt");
 
+	//skipping information lines on text file
+	for (int i = 0; i < 5;i++)
 		getline(input, tempLineHolder);
-		definitions.push_back(tempLineHolder);
+
+	if (input.is_open())
+	{
+		while (getline(input, tempLineHolder))
+		{
+			wordsList.push_back(tempLineHolder);
+
+			getline(input, tempLineHolder);
+			pronunciations.push_back(tempLineHolder);
+
+			getline(input, tempLineHolder);
+			definitions.push_back(tempLineHolder);
+		}
+	}
+	else
+	{
+		cout << "Failed to open input file, exiting...";
+		system("PAUSE");
+		return 0;
+
 	}
 
 	cout << "Vocabulary Game" << endl;
 	
+	//running menu and game
 	Menu menu;
-	while(menu.GameSelectMenu()!=0);
+	while(menu.GameSelectMenu(wordsList,definitions,pronunciations)!=0);
+	return 0;
 }

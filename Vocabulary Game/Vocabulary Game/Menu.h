@@ -12,7 +12,7 @@ using namespace std;
 class Menu
 {
 public:
-	int GameSelectMenu(vector<string>, vector<string>);
+	int GameSelectMenu(vector<string>, vector<string>,vector<string>);
 private:
 	int selection;
 	Games wordGame;

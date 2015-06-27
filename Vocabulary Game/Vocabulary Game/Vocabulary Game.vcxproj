@@ -70,13 +70,13 @@
     <ClCompile Include="TextToSpeech.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\Cpp-WindowsForms-Calculator\Calculator\Calculator\WordInput.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Games.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TextToSpeech.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="WordInput.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

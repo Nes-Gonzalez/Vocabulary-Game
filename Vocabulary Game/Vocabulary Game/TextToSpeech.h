@@ -11,7 +11,7 @@ using namespace std;
 class TextToSpeech
 {
 public:
-	bool say(wstring);
+	bool say(string);
 };
 
 #endif

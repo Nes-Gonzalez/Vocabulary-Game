@@ -1,7 +1,10 @@
 #include "TextToSpeech.h"
 
-bool TextToSpeech::say(wstring wordToSay)
+bool TextToSpeech::say(string wordToSay)
 {
+	//convert string to wstring to use with speech function
+	wstring wstr(wordToSay.begin(), wordToSay.end());
+
 	ISpVoice * pVoice = NULL;
 
 	if (FAILED(::CoInitialize(NULL)))
@@ -10,7 +13,9 @@ bool TextToSpeech::say(wstring wordToSay)
 	HRESULT hr = CoCreateInstance(CLSID_SpVoice, NULL, CLSCTX_ALL, IID_ISpVoice, (void **)&pVoice);
 	if (SUCCEEDED(hr))
 	{
-		hr = pVoice->Speak(wordToSay.c_str(), 0, NULL);
+		long rate = -2;
+		pVoice->SetRate(rate);
+		hr = pVoice->Speak(wstr.c_str(), 0, NULL);
 		pVoice->Release();
 		pVoice = NULL;
 	}

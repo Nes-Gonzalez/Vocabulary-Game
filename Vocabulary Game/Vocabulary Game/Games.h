@@ -12,13 +12,15 @@ using namespace std;
 class Games 
 {
 public:
-	void WordGame(vector<string>, vector<string>);
-	void DefinitionGame(vector<string>, vector<string>);
+	void WordGame(vector<string>, vector<string>,vector<string>);
+	void DefinitionGame(vector<string>, vector<string>,vector<string>);
 private:
 	string input;
 	int random;
-	int score;
-	int total;
+	int score=0;
+	int total=0;
+	int currentScore;
+	int numberOfWords=0;
 	TextToSpeech talk;
 };
 
