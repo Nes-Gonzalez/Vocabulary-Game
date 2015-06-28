@@ -16,11 +16,15 @@ public:
 	void DefinitionGame(vector<string>, vector<string>,vector<string>);
 private:
 	string input;
+	int intInput;
 	int random;
-	int score=0;
-	int total=0;
+	int score;
+	int total;
 	int currentScore;
-	int numberOfWords=0;
+	int numberOfWords;
+	int def1;
+	int def2;
+	int correctDef;
 	TextToSpeech talk;
 };
 

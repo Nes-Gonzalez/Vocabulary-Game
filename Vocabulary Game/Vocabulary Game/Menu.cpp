@@ -18,6 +18,7 @@ int Menu::GameSelectMenu(vector<string> words, vector<string> definitions, vecto
 		return 1;
 	case 2:
 		//send to 2 game;
+		wordGame.DefinitionGame(words, definitions, pronunciations);
 		return 2;
 	case 0:
 		//send to exit;

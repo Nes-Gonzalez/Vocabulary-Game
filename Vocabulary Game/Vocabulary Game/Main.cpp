@@ -48,5 +48,8 @@ int main()
 	//running menu and game
 	Menu menu;
 	while(menu.GameSelectMenu(wordsList,definitions,pronunciations)!=0);
+
+	system("cls");
+	cout << "Thank for enjoying my game" << endl << "Created by: Nestor Gonzalez" << endl << "Do not use without express permission";
 	return 0;
 }
