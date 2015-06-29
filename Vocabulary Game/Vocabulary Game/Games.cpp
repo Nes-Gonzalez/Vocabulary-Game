@@ -185,17 +185,34 @@ void Games::DefinitionGame(vector<string> words, vector<string> definitions, vec
 			cout << endl << "Select the definition of the word by entering the corresponding number or enter '0' to exit" << endl;
 			if (cin >> intInput)
 			{
-				if (intInput == random)
+				if (intInput < 0 || intInput>3)
+				{
+					cout << "That is not in the vaild range of answers, try either '1', '2', or '3' "<<endl;
+
+					cin.clear();
+					fflush(stdin);
+
+					system("pause");
+				}
+				else if (intInput == random)
 				{
 					total += 6;
 					score += currentScore;
 					cout << "Correct! Your current total score is: " << score << " out of " << total << endl << "Lets move on to the next word" << endl;
+
+					cin.clear();
+					fflush(stdin);
+
 					system("pause");
 				}
 				else if (intInput == 0)
 				{
 					system("cls");
 					cout << endl << "Game over" << endl << "your score was : " << score << endl << "out of a possible: " << total << endl;
+
+					cin.clear();
+					fflush(stdin);
+
 					system("pause");
 					break;
 				}
@@ -207,12 +224,20 @@ void Games::DefinitionGame(vector<string> words, vector<string> definitions, vec
 						total += 6;
 						cout << "Too many attempts, the correct answer was " << endl<< random << ") " << definitions[correctDef] << endl<<endl;
 						cout << "lets move on to the next word" << endl;
+
+						cin.clear();
+						fflush(stdin);
+
 						system("pause");
 						break;
 					}
 					else
 					{
 						cout << "Incorrect, please try again" << endl;
+
+						cin.clear();
+						fflush(stdin);
+
 						system("pause");
 					}
 				}
@@ -220,6 +245,8 @@ void Games::DefinitionGame(vector<string> words, vector<string> definitions, vec
 			else
 			{
 				cout << "not a valid input, please select only one of the 3 possible definitions by enter '1', '2', or '3'" << endl;
+				cin.clear();
+				fflush(stdin);
 				system("pause");
 			}
 
