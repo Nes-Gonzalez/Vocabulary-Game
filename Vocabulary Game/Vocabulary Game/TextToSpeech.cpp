@@ -13,7 +13,7 @@ bool TextToSpeech::say(string wordToSay)
 	HRESULT hr = CoCreateInstance(CLSID_SpVoice, NULL, CLSCTX_ALL, IID_ISpVoice, (void **)&pVoice);
 	if (SUCCEEDED(hr))
 	{
-		long rate = -3;
+		long rate = -5;
 		pVoice->SetRate(rate);
 		hr = pVoice->Speak(wstr.c_str(), 0, NULL);
 		pVoice->Release();

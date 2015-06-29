@@ -42,7 +42,7 @@ void Games::WordGame(vector<string> words, vector<string> definitions, vector<st
 					break;
 				}
 
-				cout << "Enter your answer or type 'exit' to finish the game. No capitalization needed." << endl;;
+				cout << "Enter your answer or type 'exit' to finish the game. No capitalization needed." << endl<<endl;
 				cin >> input;
 
 				//checking possibilities of user input
@@ -52,6 +52,7 @@ void Games::WordGame(vector<string> words, vector<string> definitions, vector<st
 					score += currentScore;
 
 					cout << endl<< "Correct! Your current total score is: " << score << "out of " << total << endl << "Lets move on to the next word" << endl << endl;
+					system("pause");
 					break;
 					
 				}
@@ -76,7 +77,7 @@ void Games::WordGame(vector<string> words, vector<string> definitions, vector<st
 					else
 					{
 						system("cls");
-						cout << endl << "Incorrect, pleasse try again" << endl << endl;
+						cout << "Incorrect, pleasse try again" << endl << "Your last attempt was: "<<input<<endl;
 					}
 				}
 			}
@@ -109,8 +110,10 @@ void Games::DefinitionGame(vector<string> words, vector<string> definitions, vec
 		random = rand() % 3;
 		random++;
 
-		//getting incorrect definitions
+		//getting correct definitions
 		correctDef = rand() % definitions.size();
+
+		//getting incorrect definitions
 		def1 = rand() % definitions.size();
 		def2 = rand() % definitions.size();
 
@@ -119,7 +122,7 @@ void Games::DefinitionGame(vector<string> words, vector<string> definitions, vec
 			def1 = rand() % definitions.size();
 
 		while (def2 == correctDef || def2 == def1)
-			def1 = rand() % definitions.size();
+			def2 = rand() % definitions.size();
 
 		
 		//individual word guessing
@@ -128,7 +131,10 @@ void Games::DefinitionGame(vector<string> words, vector<string> definitions, vec
 			
 			system("cls");
 
-			cout << "answer " << random << endl;
+			//this line will give the answer to every question
+			//cout << "answer " << random << endl;
+
+
 			cout << "Word number: " << numberOfWords << endl;
 			cout << "Current possible word score: " << currentScore << endl << endl;
 			cout << "Word is: " << words[correctDef] << endl << endl;

@@ -12,3 +12,306 @@ Hopelessly intricate, involved, or perplexing
 obfuscate
 ahbfuskate
 To confuse, bewilder, or stupefy
+aberration
+aberration
+something that differs from the norm 
+abhor
+abhor
+to hate, detest
+acquiesce
+acquiesce
+to agree without protesting 
+alacrity
+alacrity
+eagerness, speed 
+amiable
+amiable
+friendly 
+appease
+appease
+to calm, satisfy 
+arcane
+arcane
+obscure, secret, known only by a few 
+avarice
+avarice
+excessive greed 
+brazen
+brazen
+excessively bold, brash, clear and obvious 
+brusque
+brusque
+short, abrupt, dismissive 
+cajole
+cajole
+to urge, coax 
+callous
+callous
+harsh, cold, unfeeling 
+candor
+cander
+honesty, frankness 
+chide
+chide
+to voice disapproval 
+circumspect
+circumspect
+cautious 
+clandestine
+clandestine
+secret 
+coerce
+coerce
+to make somebody do something by force or threat 
+coherent
+coherent
+logically consistent, intelligible 
+complacency
+complacency
+self-satisfied ignorance of danger 
+confidant
+confidant
+a person entrusted with secrets 
+connive
+connive
+to plot, scheme 
+cumulative
+cumulative
+increasing, building upon itself 
+debase
+debase
+to lower the quality or esteem of something 
+decry
+decry
+to criticize openly 
+deferential
+deferential
+showing respect for another?s authority 
+demure
+demure
+quiet, modest, reserved 
+deride
+deride
+to laugh at mockingly, scorn 
+despot
+despot
+one who has total power and rules brutally 
+diligent
+diligent
+showing care in doing one?s work 
+elated
+elated
+overjoyed, thrilled 
+eloquent
+eloquent
+expressive, articulate, moving 
+embezzle
+embezzle
+to steal money by falsifying records 
+empathy
+empathy
+sensitivity to another's feelings as if they were one?s own 
+enmity
+enmity
+ill will, hatred, hostility 
+erudite
+erudite
+learned 
+extol
+extol
+to praise, revere 
+fabricate
+fabricate
+to make up, invent 
+feral
+feral
+wild, savage 
+flabbergasted
+flabbergasted
+astounded 
+forsake
+forsake
+to give up, renounce 
+fractious
+fractious
+troublesome or irritable 
+furtive
+furtive
+secretive, sly 
+gluttony
+gluttony
+overindulgence in food or drink 
+gratuitous
+gratuitous
+uncalled for, unwarranted 
+haughty
+haughty
+disdainfully proud 
+hypocrisy
+hypocrisy
+pretending to believe what one does not 
+impeccable
+impeccable
+exemplary, flawless 
+impertinent
+impertinent
+rude, insolent 
+implacable
+implacable
+incapable of being appeased or mitigated 
+impudent
+impudent
+casually rude, insolent, impertinent 
+incisive
+incisive
+clear, sharp, direct 
+indolent
+indolent
+lazy 
+inept
+inept
+not suitable or capable, unqualified 
+infamy
+infamy
+notoriety, extreme ill repute 
+inhibit
+inhibit
+to prevent, restrain, stop 
+innate
+innate
+inborn, native, inherent 
+insatiable
+insatiable
+incapable of being satisfied 
+insular
+insular
+separated and narrow-minded; tight-knit, closed off 
+intrepid
+intrepid
+brave in the face of danger 
+inveterate
+inveterate
+stubbornly established by habit 
+jubilant
+jubilant
+extremely joyful, happy 
+knell
+knell
+the solemn sound of a bell, often indicating a death 
+lithe
+lithe
+graceful, flexible, supple 
+lurid
+lurid
+ghastly, sensational 
+maverick
+maverick
+an independent, nonconformist person 
+maxim
+maxim
+a common saying expressing a principle of conduct 
+meticulous
+meticulous
+extremely careful with details 
+modicum
+modicum
+a small amount of something 
+morose
+morose
+gloomy or sullen 
+myriad
+myriad
+consisting of a very great number 
+nadir
+nadir
+the lowest point of something 
+nominal
+nominal
+trifling, insignificant 
+novice
+novice
+a beginner, someone without training or experience 
+nuance
+nuance
+a slight variation in meaning, tone, expression 
+oblivious
+oblivious
+lacking consciousness or awareness of something 
+obsequious
+obsequious
+excessively compliant or submissive 
+obtuse
+obtuse
+lacking quickness of sensibility or intellect 
+panacea
+panacea
+a remedy for all ills or difficulties 
+parody
+parody
+a satirical imitation 
+penchant
+penchant
+a tendency, partiality, preference 
+perusal
+perusal
+a careful examination, review 
+plethora
+plethora
+an abundance, excess 
+predilection
+predilection
+a preference or inclination for something 
+quaint
+quaint
+charmingly old-fashioned 
+rash
+rash
+hasty, incautious 
+refurbish
+refurbish
+to restore, clean up 
+repudiate
+repudiate
+to reject, refuse to accept 
+rife
+rife
+abundant 
+salient
+salient
+significant, conspicuous 
+serendipity
+serendipity
+luck, finding good things without looking for them 
+staid
+staid
+sedate, serious, self-restrained 
+superfluous
+superfluous
+exceeding what is necessary 
+sycophant
+sycophant
+one who flatters for self-gain 
+taciturn
+taciturn
+not inclined to talk 
+truculent
+truculent
+ready to fight, cruel 
+umbrage
+umbrage
+resentment, offence 
+venerable
+venerable
+deserving of respect because of age or achievement 
+vex
+vex
+to confuse or annoy 
+vociferous
+vociferous
+loud, boisterous 
+wanton
+wanton
+undisciplined, lewd, lustful 
+zenith
+zenith
+the highest point, culminating point 
