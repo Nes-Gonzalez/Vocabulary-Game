@@ -16,7 +16,7 @@ aberration
 aberration
 something that differs from the norm 
 abhor
-abhor
+abhore
 to hate, detest
 acquiesce
 acquiesce
@@ -49,7 +49,7 @@ callous
 callous
 harsh, cold, unfeeling 
 candor
-cander
+candor
 honesty, frankness 
 chide
 chide
@@ -110,7 +110,7 @@ embezzle
 to steal money by falsifying records 
 empathy
 empathy
-sensitivity to another's feelings as if they were one?s own 
+sensitivity to another?s feelings as if they were one?s own 
 enmity
 enmity
 ill will, hatred, hostility 
@@ -289,7 +289,7 @@ superfluous
 superfluous
 exceeding what is necessary 
 sycophant
-sycophant
+sickafent
 one who flatters for self-gain 
 taciturn
 taciturn
